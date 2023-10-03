@@ -1,0 +1,23 @@
+.productsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background-color: bisque;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+
+.product img {
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+    border-radius: 20px 0 0 0;
+    
+}
