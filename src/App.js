@@ -23,7 +23,7 @@ const App = () => {
     },
     {
       id: 4,
-      name: 'chaise',
+      name: 'Chaise',
       price: 35,
       image: 'images/chaise.jpg',
     },
@@ -39,11 +39,29 @@ const App = () => {
       price: 650,
       image: 'images/tv.jpg',
     },
+    {
+      id: 7,
+      name: 'Vélo',
+      price: 1200,
+      image: 'images/velo.jpg',
+    },
+    {
+      id: 8,
+      name: 'Machine à café',
+      price: 1150,
+      image: 'images/machine-a-cafe.jpg'
+    }
   ]
 
   return (
     <div className="app">
-      <h1>Ma boutique</h1>
+      <div className="header">
+        <h1>Ma boutique</h1>
+        <div className="header-nav">
+          <p>Accueil</p>
+          <p>Mon Panier</p>
+        </div>        
+      </div>    
       <ProductsList products={products}/>
     </div>
   )

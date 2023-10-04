@@ -1,5 +1,27 @@
 body, html {
   background-color: #e3e2da;
-  margin-left: 20px;
+  margin-left: 15px;
   max-width: 1800px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav p {
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.header-nav p:hover {
+  text-decoration: underline;
 }

@@ -7,8 +7,11 @@ const ProductsList = ({ products }) => {
            {products.map((product) => (
             <div key={product.id} className='product'>
                 <img src={product.image} alt={product.name} />
-                <h2>{product.name}</h2>
-                <p>{product.price} €</p>
+                <div className="product-infos">
+                    <h2>{product.name}</h2>
+                    <p>{product.price} €</p>
+                    <button className="add-product">Ajouter au panier</button>
+                </div>     
             </div>
            ))}   
         </div>
