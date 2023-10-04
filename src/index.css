@@ -1,7 +1,6 @@
 body, html {
   background-color: #e3e2da;
-  margin-left: 15px;
-  max-width: 1800px;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -10,6 +9,10 @@ body, html {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  background-color: #4381C1;
+  margin-bottom: 20px;
+  padding: 8px;
+  border-bottom: 1px solid black;
 }
 
 .header-nav {
