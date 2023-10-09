@@ -15,13 +15,11 @@
   
   .header-nav {
     display: flex;
-    margin-right: 25px;
   }
   
   .header-nav p {
     cursor: pointer;
     font-size: 20px;
-    margin-right: 10px;
     &:hover {
       text-decoration: underline;
     }
@@ -32,6 +30,7 @@
     font-size: 20px;
     text-decoration: none;
     align-self: center;
+    margin-right: 25px;
     &:hover {
       text-decoration: underline;
     }
