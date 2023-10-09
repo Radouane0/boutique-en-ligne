@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4381C1;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-bottom: 1px solid black;
+  }
+  
+  .header h1 {
+    margin-left: 25px;
+  }
+  
+  .header-nav {
+    display: flex;
+    margin-right: 25px;
+  }
+  
+  .header-nav p {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .header-nav p:hover {
+    text-decoration: underline;
+  }

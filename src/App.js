@@ -1,5 +1,6 @@
 import React from 'react'
 import ProductsList from './components/ProductsList/ProductsList'
+import Header from './components/Header/Header'
 
 const App = () => {
   const products = [
@@ -50,18 +51,36 @@ const App = () => {
       name: 'Machine à café',
       price: 1150,
       image: 'images/machine-a-cafe.jpg'
+    },
+    {
+      id: 9,
+      name: 'Smartphone',
+      price: 760,
+      image: 'images/smartphone.jpg'
+    },
+    {
+      id: 10,
+      name: 'Lecteur de vinyle',
+      price: 100,
+      image: 'images/lecteur-vinyle.jpg'
+    },
+    {
+      id: 11,
+      name: 'Tondeuse à gazon',
+      price: 325,
+      image: 'images/tondeuse.jpg'
+    },
+    {
+      id: 12,
+      name: 'Robot Patissier',
+      price: 175,
+      image: 'images/robot-patissier.jpg'
     }
   ]
 
   return (
     <div className="app">
-      <div className="header">
-        <h1>Ma boutique</h1>
-        <div className="header-nav">
-          <p>Accueil</p>
-          <p>Mon Panier</p>
-        </div>        
-      </div>    
+      <Header /> 
       <ProductsList products={products}/>
     </div>
   )
