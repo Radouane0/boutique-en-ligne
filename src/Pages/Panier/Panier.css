@@ -1,0 +1,25 @@
+.panier {
+    margin-left: 25px;
+}
+
+.panier li {
+    width: 38%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #4381C1;
+}
+
+.panier img {
+    width: 20%;
+    border-radius: 10px 0 0 10px;
+}
+
+.panier p {
+    font-size: 18px;
+    font-weight: bold;
+}
